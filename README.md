@@ -46,5 +46,6 @@ import numpy as np
     朴素贝叶斯训练生成的模型
 ## word2vec.model word2vec.model.syn1neg.npy word2vec.model.wv.syn0.npy
     利用gensim库训练出来的一个word2vec模型所导出的文件
-    
+
+=======
 
