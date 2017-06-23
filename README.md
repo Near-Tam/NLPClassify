@@ -36,7 +36,7 @@ import numpy as np
     NBmodel_test.predict(Test_data)
 
 # 数据与模型
-    下载地址： 链接: https://pan.baidu.com/s/1jIdwM7W 密码: t5wq
+    下载地址： 链接: https://pan.baidu.com/s/1jIdwM7W 密码: 加我微信943272448
 ## AllMusicLibrary.txt
     字典词库
 ## NB.model
