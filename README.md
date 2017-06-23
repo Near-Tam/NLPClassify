@@ -15,8 +15,8 @@ import numpy as np
 ## 1.导入数据
     X_train = np.array([u"我想听张学友的歌",u"周杰伦的龙卷风",u"鹿晗有什么歌好听",u"姚明打篮球好厉害",u"张继科会打乒乓球",u"詹姆士是体育明星"])
     Y_train = np.array([1,1,1,2,2,2])
-
     Test_data = [u"我想听薛之谦的演员","邓亚萍是体育明星","刘翔是体育明星"]
+
 	`//将X_train的数据分成1, 2两类`
 
 ## 2.加载word2vec模型
@@ -29,9 +29,7 @@ import numpy as np
 ## 4.利用模型进行预测
     Model.predict(Test_data)
     
-    `//Test_data = [u"我想听薛之谦的演员","邓亚萍是体育明星","刘翔是体育明星"]`
-	
-    `//result:[1 2 2]`
+    `//Test_data = [u"我想听薛之谦的演员","邓亚萍是体育明星","刘翔是体育明星"]  result:[1 2 2]`
 
 ## 5.保存模型
     Model.save_NBmodel( "NB.model")
